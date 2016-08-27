@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHead"
+        android:textSize="24sp"
+        android:text="Item's Name"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentTop="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retail"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="Retail Price          : "
+        android:layout_below="@id/txtHead"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/retailValue"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text=""
+        android:layout_below="@id/txtHead"
+        android:layout_toRightOf="@id/retail"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/whole"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text="WholeSale Price : "
+        android:layout_below="@id/retail"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wholeValue"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:text=""
+        android:layout_below="@id/retailValue"
+        android:layout_toRightOf="@id/whole"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
